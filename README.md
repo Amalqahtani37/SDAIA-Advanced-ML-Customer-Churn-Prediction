@@ -23,9 +23,10 @@ so the retention team can proactively target the highest-risk customers before t
 - **Class balance:** ≈ 26.5% positive
 
 ### Why this dataset was selected
-It is tabular, has a clean binary target, carries a realistic and moderate class imbalance, and is small
-enough to train in seconds while still supporting a full validation, imbalance, thresholding,
-interpretability and calibration workflow — exactly the scope of this course.
+Beyond satisfying the course requirements (tabular, binary, moderate imbalance), this dataset was
+chosen because its known churn drivers (contract type, tenure, internet service) map clearly onto
+actionable retention levers — making the interpretability and threshold-selection phases of this
+project directly tied to a real business decision, not just an academic exercise.
 
 ## Methodology
 
@@ -109,8 +110,10 @@ customers, which may exceed a real team's outreach capacity) before deployment.
    demonstrably stickier; churn risk drops sharply as tenure increases.
 2. `Contract_Month-to-month` is the second strongest driver (0.097) — customers with no switching cost can
    leave any time, matching the well-documented real-world churn pattern for this dataset.
-3. `MonthlyCharges`, fiber-optic internet, and the absence of online security are secondary but consistent
-   risk signals.
+3. Fiber-optic customers combined with month-to-month contracts represent the highest-risk
+   segment — a natural target for a focused retention campaign rather than a blanket offer to
+   all customers.
+
 
 ## Limitations
 This is a single snapshot per customer with no usage trend over time, so the model can say a customer is
