@@ -4,14 +4,17 @@
 Advanced Machine Learning Methods — SDAIA Academy (SDA-DSC-211)
 
 ## Problem Statement
-Telecom providers lose recurring revenue every time a paying customer cancels their subscription. This
-project predicts, from a customer's account and subscription attributes, whether they are likely to churn —
-so the retention team can proactively target the highest-risk customers before they leave.
+Fiber-optic customers on month-to-month contracts show a disproportionately high churn rate in
+this dataset, making this segment the highest-value target for a retention program. This project
+builds a model to predict, from a customer's account and subscription attributes, whether they
+are likely to churn — with particular attention to the drivers behind this high-risk segment — so
+the retention team can proactively target the customers most likely to leave before they leave.
 
 - **Prediction moment:** at a routine account-review checkpoint (e.g. start of a billing cycle), using only
   information already on the account at that point.
 - **Decision supported:** whether to enroll a customer in a retention program (discount, contract-upgrade
-  call, proactive support outreach). Acted on by the customer-retention team.
+  call, proactive support outreach), with fiber-optic / month-to-month customers as the priority segment.
+  Acted on by the customer-retention team.
 
 ## Dataset
 - **Name:** IBM Telco Customer Churn
