@@ -135,7 +135,9 @@ data/README.md, images/, results/
 pandas, numpy, scikit-learn, xgboost, lightgbm, shap, optuna, matplotlib
 
 ## Author
-*<Your Name>*
+Amal Alqahtani
+
+## Official SDAIA Academy GitHub: [SDAIA Academy](https://github.com/SDAIAAcademy)
 
 ## Acknowledgment
 This project was completed as part of the Advanced Machine Learning Methods training program at SDAIA
