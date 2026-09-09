@@ -1,0 +1,2 @@
+model,roc_auc,pr_auc,brier,threshold
+final_lightgbm_calibrated,0.7492720170454545,0.5034210071093059,0.1873857905056616,0.27
