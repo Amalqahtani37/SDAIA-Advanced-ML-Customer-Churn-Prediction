@@ -137,10 +137,26 @@ pandas, numpy, scikit-learn, xgboost, lightgbm, shap, optuna, matplotlib
 ## Author
 Amal Alqahtani
 
-## Official SDAIA Academy GitHub: [SDAIA Academy](https://github.com/SDAIAAcademy)
-
 ## Acknowledgment
 This project was completed as part of the Advanced Machine Learning Methods training program at SDAIA
 Academy.
 
+Official SDAIA Academy GitHub: [SDAIA Academy](https://github.com/SDAIAAcademy)
+
+## AI Assistance Disclosure
+This project was developed with the assistance of an AI tool (Claude, by Anthropic) for code
+scaffolding, debugging support, and documentation drafting. All modeling decisions, parameter
+choices, and interpretations were reviewed, understood, and are owned by the trainee, who takes
+full responsibility for the final analysis and results. The dataset used (IBM Telco Customer
+Churn) is public and does not contain confidential, private, or sensitive information.
+
+## Training Program
+This project was completed as part of the **Advanced Machine Learning Methods (SDA-DSC-211)**
+training program at **SDAIA Academy**, under the supervision of **Fahad Alqahtani**.
+
+The project demonstrates the practical application of advanced machine learning techniques for a
+real-world business problem, covering: honest validation design, leakage detection, class
+imbalance handling, threshold selection under a justified operating rule, hyperparameter
+optimization with Optuna, model interpretability with SHAP, probability calibration, and
+evidence-based final model selection.
 
